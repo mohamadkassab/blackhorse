@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo{
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(var(--body-font-size)*1.6);
+  font-weight: 700;
+  color: #020817;
+  font-size: 24px;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+.dinio{
+  font-family: "Dancing Script", cursive;
+  font-size: calc(var(--body-font-size)*1.4);
+}
+
+.textPrimaryC{
+  --tw-text-opacity: 1;
+  color: rgb(106 13 173 / var(--tw-text-opacity));
+}
+
+.textDarkC:hover{
+  --tw-text-opacity: 1;
+  color: rgb(106 13 173 / var(--tw-text-opacity));
+}
+
+.textBaseC{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+.textSmC {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+
+.rowCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowCenter:hover{
+  .hoverPhone{
+    fill:#6a0dad;
+    transform: scale(1.2);
+  }
+  .textBaseC{
+    color: #6a0dad;
+  }
+}
+.hoverPhone{
+  transition: transform 0.2s ease-in-out;
+  fill: #1D2430;
+}

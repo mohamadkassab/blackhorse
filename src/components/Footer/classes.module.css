@@ -1,0 +1,16 @@
+.logo{
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(var(--body-font-size)*1.6);
+  font-weight: 700;
+  color: #020817;
+  font-size: 24px;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+.dinio{
+  font-family: "Dancing Script", cursive;
+  font-size: calc(var(--body-font-size)*1.4);
+}
