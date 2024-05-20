@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "blackhorse Reliable Transportation Services In Boston",
+  title: "bBlackhorse Reliable Transportation Services In Boston",
   description: "blackhorse provides comfortable and reliable transportation services in Boston. Learn more about our fleet, safety record, and commitment to customer satisfaction. Contact us for a free quote today.",
   keywords:"blackhorse, About Us, Cab Company, Transportation Services, Boston, Premium, Mission, Vision, Values"
 };

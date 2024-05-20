@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const WhatsappContact = () => {
   return (
-    <Link href="https://api.whatsapp.com/send?phone=18573547000" >
+    <Link href="https://api.whatsapp.com/send?phone=17817773922" >
         <div className="fixed bottom-28 right-6 z-[99]">
       <div
         aria-label="whatsapp by whatsapp"

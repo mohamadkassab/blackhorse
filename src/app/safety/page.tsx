@@ -3,7 +3,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "blackhorse Stay Safe With Transportation Services In Boston",
+  title: "Blackhorse Stay Safe With Transportation Services In Boston",
   description: "Discover our safety measures and commitment to your well-being at blackhorse. Explore our safety page for essential guidelines, resources, and our dedication to providing a secure environment for all users.",
   keywords: "Safety guidelines, Safety measures, Safety protocols, Safety procedures, Safety precautions, Safety standards, Safety regulations, Safety tips, Safety advice, Safety information",
 

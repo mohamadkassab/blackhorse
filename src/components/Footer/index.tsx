@@ -190,59 +190,28 @@ const Footer = () => {
                 <ul>
                 <li>
                     <Link
-                      href="tel:+1 857 354 7000"
+                      href="tel:+1 781 777 3922"
                       title="phone number"
                       target="_blank"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      +1 857 354 7000
+                      +1 781 777 3922
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="mailto:support@example.com"
+                      href="mailto:info@blackhorsetaxi.com"
                       title="email"
                       target="_blank"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      info@blackhorse.com
+                      info@blackhorsetaxi.com
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href=""
-                      title="address"
-                      target="_blank"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      945 Concord St, Framingham, MA 01701
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href=""
-                      title="address"
-                      target="_blank"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                     437 Turnpike St, Canton, MA 02021
-                    </Link>
+          
+            
 
-                  
-                  </li>
-
-                  <li>
-                    <Link
-                      href=""
-                      title="address"
-                      target="_blank"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                     3 Allied Dr, Suite 303, Dedham, MA 02026
-                    </Link>
-
-                  
-                  </li>
+           
                  
                 </ul>
               </div>

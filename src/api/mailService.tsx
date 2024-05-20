@@ -36,15 +36,15 @@ const mailService = async (formData) => {
       port: 465,
       secure: true,
       auth: {
-        user: "info@bostondiniocoach.com",
-        pass: "@Bostondinio12",
+        user: "info@blackhorsetaxi.com",
+        pass: "Kangamonokonayo00!",
       },
       timeout: 10000,
     });
 
     const details = {
-      from: "info@bostondiniocoach.com",
-      to: "info@bostondiniocoach.com",
+      from: "info@blackhorsetaxi.com",
+      to: "info@blackhorsetaxi.com",
       subject: formData.type + ": " + formData.phone,
       text: JSON.stringify(formData, null, 2).replace(/\\n/g, "\n"),
     };
