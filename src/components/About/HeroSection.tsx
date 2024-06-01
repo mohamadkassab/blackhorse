@@ -4,6 +4,7 @@ import RideForm from "@/components/rideForm";
 import SuccessAlert from "../Common/SuccessAlert";
 import ErrorAlert from "../Common/ErrorAlert";
 import { useState, useEffect } from "react";
+import Carousel from '../Common/Carousel';
 
 const HeroSection = () => {
   const [isSuccess, setIsSuccess] = useState(false);
@@ -17,6 +18,17 @@ const HeroSection = () => {
       }
     }
   };
+interface CarouselProps {
+  images: string[];
+}
+  const images = [
+    '/images/about/hero1.jpg',
+    '/images/about/IMG_0008.jpeg',
+    '/images/about/hero2.jpg',
+    '/images/about/IMG_0014.jpeg',
+    '/images/about/hero3.jpg',
+    '/images/about/IMG_0015.jpeg',
+  ];
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -44,16 +56,19 @@ const HeroSection = () => {
           </div>
           <div className={`flex w-full justify-center px-4 lg:w-1/2`}>
             <div
-              className="relative mb-12 aspect-[25/24] w-5/6 max-w-[470px] rounded-sm px-10 py-11 sm:p-[55px] lg:mb-5  lg:px-8 xl:p-[55px]     "
+              className="relative h-[30rem]  w-5/6  rounded-sm  "
               data-wow-delay=".15s"
             >
               <div>
-                <Image
+                {/* <Image
                   src="/images/about/hero.jpeg"
                   alt="Business transporation service"
                   fill
                   className="rounded-sm drop-shadow-three"
-                />
+                /> */}
+
+<Carousel images={images} />
+
               </div>
             </div>
           </div>
