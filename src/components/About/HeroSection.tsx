@@ -44,7 +44,20 @@ interface CarouselProps {
       {isSuccess && <SuccessAlert />}
       {isError && <ErrorAlert />}
       <div className="container bg-white ">
-        <div className="-mx-4 flex flex-wrap items-center">
+        <div className="-mx-4 flex  flex-col flex-wrap items-center">
+        <div className={`flex w-full 	 justify-center px-4  mb-10`}>
+            <div
+              className="relative h-[30rem]  w-5/6  rounded "
+              data-wow-delay=".15s"
+            >
+              <div className="rounded">
+      
+
+<Carousel images={images} />
+
+              </div>
+            </div>
+          </div>
           <div className={`flex w-full justify-center bg-white lg:w-1/2`}>
             <div
               className={`mb-12 aspect-[25/24] w-full  rounded-sm bg-dark px-2 py-11 shadow-three sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px] `}
@@ -54,24 +67,7 @@ interface CarouselProps {
               </div>
             </div>
           </div>
-          <div className={`flex w-full justify-center px-4 lg:w-1/2`}>
-            <div
-              className="relative h-[30rem]  w-5/6  rounded-sm  "
-              data-wow-delay=".15s"
-            >
-              <div>
-                {/* <Image
-                  src="/images/about/hero.jpeg"
-                  alt="Business transporation service"
-                  fill
-                  className="rounded-sm drop-shadow-three"
-                /> */}
-
-<Carousel images={images} />
-
-              </div>
-            </div>
-          </div>
+  
         </div>
       </div>
     </section>

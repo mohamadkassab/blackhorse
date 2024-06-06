@@ -60,6 +60,7 @@ const Header = () => {
               >
                 <h1 itemProp="logo"  className={`${classes.logo} hover:brightness-125 `}>
                   BLACKHORSE
+                  <span style={{ color: 'rgb(106, 13, 173)', fontSize: '0.8em', display: 'block', marginTop: '5px' }}>Livery service</span>
                 </h1>
               </Link>
             </div>

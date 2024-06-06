@@ -148,11 +148,11 @@ const RideForm = ({ onResult }) => {
             <div className="mb-8">
             <select  onChange={handleChange}     value={formData.service} id="service" name="service" className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-dark outline-none focus:border-primary">
             <option value="" disabled selected>Select a service</option>
-        <option value="volvo">Ride To the Airport</option>
-        <option value="saab">Ride From the Airport</option>
-        <option value="mercedes">Ride To Boston</option>
-        <option value="audi">Ride From Boston</option>
-        <option value="audi">Door To Door</option>
+            <option value="Ride To the Airport">Ride To the Airport</option>
+        <option value="Ride From the Airport">Ride From the Airport</option>
+        <option value="Ride To Boston">Ride To Boston</option>
+        <option value="Ride From Boston">Ride From Boston</option>
+        <option value="Door To Door">Door To Door</option>
     </select>
             </div>
           </div>
